@@ -104,9 +104,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'bot',
+			name: 'Twitch',
 			icon: 'bot',
-			link: 'https://discord.com/app',
+			link: 'https://twitch.tv',
 		},
 		{
 			id: '4',
@@ -122,9 +122,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Figma',
+			name: 'Instagram',
 			icon: 'figma',
-			link: 'https://figma.com/',
+			link: 'https://instagram.com/',
 		},
 	],
 
