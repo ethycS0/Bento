@@ -6,19 +6,33 @@
 
 /* V A R I A B L E S */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
+@font-face {
+    font-family: 'JetBrains Mono Nerd Font';
+    src: url('/path-to-your-fonts/JetBrainsMonoNerdFont-Regular.woff2') format('woff2'),
+         url('/path-to-your-fonts/JetBrainsMonoNerdFont-Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono Nerd Font';
+    src: url('/path-to-your-fonts/JetBrainsMonoNerdFont-Bold.woff2') format('woff2'),
+         url('/path-to-your-fonts/JetBrainsMonoNerdFont-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
 
 :root {
   /* Font Size */
   --fg-primary: 12vh; /* Time and Greetings */
-  --fg-secondary: 3vh; /* Greetings and Weather widger */
+  --fg-secondary: 3vh; /* Greetings and Weather widget */
   --fg-date: 8vh; /* Date */
   --fg-list: 2vh; /* Links List */
   --icon: 3vh; /* Icon Size */
 
   /* Fonts Color */
   --fg: #0A0E14; /* Foreground color */
-  --sfg: #0A0E14; /* Sceondary Foreground color */
+  --sfg: #0A0E14; /* Secondary Foreground color */
 
   /* Light Colors  */
   --accent: #57a0d9; /* Hover color */
@@ -56,7 +70,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'JetBrains Mono Nerd Font', monospace;
   transition: 0.2s ease-in-out;
 }
 
@@ -68,6 +82,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 
 .notransition {
   -webkit-transition: none;
